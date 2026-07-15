@@ -1,0 +1,15 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Class
+# File Name : Microsoft.UI.Xaml.Automation.AutomationAnnotation
+# Incl. In  : Microsoft.UI.Xaml.Automation
+
+#include-once
+#include "..\Classes\Microsoft.UI.Xaml.DependencyObject.au3"
+#include "..\Interfaces\Microsoft.UI.Xaml.Automation.IAutomationAnnotationStatics.au3"
+#include "..\Enumerations\Microsoft.UI.Xaml.Automation.AnnotationType.au3"
+#include "..\Interfaces\Microsoft.UI.Xaml.Automation.IAutomationAnnotation.au3"

@@ -1,0 +1,78 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Interface
+# File Name : Windows.UI.Xaml.Input.IGettingFocusEventArgs
+# Incl. In  : Windows.UI.Xaml.Input.GettingFocusEventArgs
+
+#include-once
+#include "..\WinRTCore.au3"
+#include "IInspectable.au3"
+
+Global Const $sIID_IGettingFocusEventArgs = "{FA05B9CE-C67C-4BE8-8FD4-C44D67877E0D}"
+$__g_mIIDs[$sIID_IGettingFocusEventArgs] = "IGettingFocusEventArgs"
+
+Global Const $tagIGettingFocusEventArgs = $tagIInspectable & _
+		"get_OldFocusedElement hresult(ptr*);" & _ ; Out $pValue
+		"get_NewFocusedElement hresult(ptr*);" & _ ; Out $pValue
+		"put_NewFocusedElement hresult(ptr);" & _ ; In $pValue
+		"get_FocusState hresult(long*);" & _ ; Out $iValue
+		"get_Direction hresult(long*);" & _ ; Out $iValue
+		"get_Handled hresult(bool*);" & _ ; Out $bValue
+		"put_Handled hresult(bool);" & _ ; In $bValue
+		"get_InputDevice hresult(long*);" & _ ; Out $iValue
+		"get_Cancel hresult(bool*);" & _ ; Out $bValue
+		"put_Cancel hresult(bool);" ; In $bValue
+
+Func IGettingFocusEventArgs_GetOldFocusedElement($pThis)
+	Local $vValue = __WinRT_GetProperty_Ptr($pThis, 7)
+	Return SetError(@error, @extended, $vValue)
+EndFunc
+
+Func IGettingFocusEventArgs_GetNewFocusedElement($pThis)
+	Local $vValue = __WinRT_GetProperty_Ptr($pThis, 8)
+	Return SetError(@error, @extended, $vValue)
+EndFunc
+
+Func IGettingFocusEventArgs_SetNewFocusedElement($pThis, $pValue)
+	Local $vValue = __WinRT_SetProperty_Ptr($pThis, 9, $pValue)
+	Return SetError(@error, @extended, $vValue)
+EndFunc
+
+Func IGettingFocusEventArgs_GetFocusState($pThis)
+	Local $vValue = __WinRT_GetProperty_Number($pThis, 10, "long")
+	Return SetError(@error, @extended, $vValue)
+EndFunc
+
+Func IGettingFocusEventArgs_GetDirection($pThis)
+	Local $vValue = __WinRT_GetProperty_Number($pThis, 11, "long")
+	Return SetError(@error, @extended, $vValue)
+EndFunc
+
+Func IGettingFocusEventArgs_GetHandled($pThis)
+	Local $vValue = __WinRT_GetProperty_Bool($pThis, 12)
+	Return SetError(@error, @extended, $vValue)
+EndFunc
+
+Func IGettingFocusEventArgs_SetHandled($pThis, $bValue)
+	Local $vValue = __WinRT_SetProperty_Bool($pThis, 13, $bValue)
+	Return SetError(@error, @extended, $vValue)
+EndFunc
+
+Func IGettingFocusEventArgs_GetInputDevice($pThis)
+	Local $vValue = __WinRT_GetProperty_Number($pThis, 14, "long")
+	Return SetError(@error, @extended, $vValue)
+EndFunc
+
+Func IGettingFocusEventArgs_GetCancel($pThis)
+	Local $vValue = __WinRT_GetProperty_Bool($pThis, 15)
+	Return SetError(@error, @extended, $vValue)
+EndFunc
+
+Func IGettingFocusEventArgs_SetCancel($pThis, $bValue)
+	Local $vValue = __WinRT_SetProperty_Bool($pThis, 16, $bValue)
+	Return SetError(@error, @extended, $vValue)
+EndFunc

@@ -1,0 +1,19 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Enumeration
+# File Name : Microsoft.UI.Text.VerticalCharacterAlignment
+# Incl. In  : Microsoft.UI.Text.ITextSelection
+
+#include-once
+#include "..\WinRTCore.au3"
+
+Global $mVerticalCharacterAlignment[]
+$mVerticalCharacterAlignment["Top"] = 0x00000000
+$mVerticalCharacterAlignment["Baseline"] = 0x00000001
+$mVerticalCharacterAlignment["Bottom"] = 0x00000002
+
+__WinRT_AddReverseMappings($mVerticalCharacterAlignment)

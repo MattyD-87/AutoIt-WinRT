@@ -1,0 +1,57 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Namespace
+# File Name : Windows.System
+
+#include-once
+#include "..\Classes\Windows.System.AppActivationResult.au3"
+#include "..\Classes\Windows.System.AppDiagnosticInfo.au3"
+#include "..\Classes\Windows.System.AppDiagnosticInfoWatcher.au3"
+#include "..\Classes\Windows.System.AppDiagnosticInfoWatcherEventArgs.au3"
+#include "..\Classes\Windows.System.AppExecutionStateChangeResult.au3"
+#include "..\Classes\Windows.System.AppMemoryReport.au3"
+#include "..\Classes\Windows.System.AppMemoryUsageLimitChangingEventArgs.au3"
+#include "..\Classes\Windows.System.AppResourceGroupBackgroundTaskReport.au3"
+#include "..\Classes\Windows.System.AppResourceGroupInfo.au3"
+#include "..\Classes\Windows.System.AppResourceGroupInfoWatcher.au3"
+#include "..\Classes\Windows.System.AppResourceGroupInfoWatcherEventArgs.au3"
+#include "..\Classes\Windows.System.AppResourceGroupInfoWatcherExecutionStateChangedEventArgs.au3"
+#include "..\Classes\Windows.System.AppResourceGroupMemoryReport.au3"
+#include "..\Classes\Windows.System.AppResourceGroupStateReport.au3"
+#include "..\Classes\Windows.System.AppUriHandlerHost.au3"
+#include "..\Classes\Windows.System.AppUriHandlerRegistration.au3"
+#include "..\Classes\Windows.System.AppUriHandlerRegistrationManager.au3"
+#include "..\Classes\Windows.System.DateTimeSettings.au3"
+#include "..\Classes\Windows.System.DispatcherQueue.au3"
+#include "..\Classes\Windows.System.DispatcherQueueController.au3"
+#include "..\Classes\Windows.System.DispatcherQueueShutdownStartingEventArgs.au3"
+#include "..\Classes\Windows.System.DispatcherQueueTimer.au3"
+#include "..\Classes\Windows.System.FolderLauncherOptions.au3"
+#include "..\Classes\Windows.System.IShutdownManagerStatics2.au3"
+#include "..\Classes\Windows.System.KnownUserProperties.au3"
+#include "..\Classes\Windows.System.LaunchUriResult.au3"
+#include "..\Classes\Windows.System.Launcher.au3"
+#include "..\Classes\Windows.System.LauncherOptions.au3"
+#include "..\Classes\Windows.System.LauncherUIOptions.au3"
+#include "..\Classes\Windows.System.MemoryManager.au3"
+#include "..\Classes\Windows.System.ProcessLauncher.au3"
+#include "..\Classes\Windows.System.ProcessLauncherOptions.au3"
+#include "..\Classes\Windows.System.ProcessLauncherResult.au3"
+#include "..\Classes\Windows.System.ProcessMemoryReport.au3"
+#include "..\Classes\Windows.System.ProtocolForResultsOperation.au3"
+#include "..\Classes\Windows.System.RemoteLauncher.au3"
+#include "..\Classes\Windows.System.RemoteLauncherOptions.au3"
+#include "..\Classes\Windows.System.ShutdownManager.au3"
+#include "..\Classes\Windows.System.TimeZoneSettings.au3"
+#include "..\Classes\Windows.System.User.au3"
+#include "..\Classes\Windows.System.UserAuthenticationStatusChangeDeferral.au3"
+#include "..\Classes\Windows.System.UserAuthenticationStatusChangingEventArgs.au3"
+#include "..\Classes\Windows.System.UserChangedEventArgs.au3"
+#include "..\Classes\Windows.System.UserDeviceAssociation.au3"
+#include "..\Classes\Windows.System.UserDeviceAssociationChangedEventArgs.au3"
+#include "..\Classes\Windows.System.UserPicker.au3"
+#include "..\Classes\Windows.System.UserWatcher.au3"

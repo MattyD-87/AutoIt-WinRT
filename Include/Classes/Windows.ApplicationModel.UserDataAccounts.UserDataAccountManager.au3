@@ -1,0 +1,15 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Class
+# File Name : Windows.ApplicationModel.UserDataAccounts.UserDataAccountManager
+# Incl. In  : Windows.ApplicationModel.UserDataAccounts
+
+#include-once
+#include "..\Enumerations\Windows.ApplicationModel.UserDataAccounts.UserDataAccountStoreAccessType.au3"
+#include "..\Enumerations\Windows.ApplicationModel.UserDataAccounts.UserDataAccountContentKinds.au3"
+#include "..\Interfaces\Windows.ApplicationModel.UserDataAccounts.IUserDataAccountManagerStatics.au3"
+#include "..\Interfaces\Windows.ApplicationModel.UserDataAccounts.IUserDataAccountManagerStatics2.au3"

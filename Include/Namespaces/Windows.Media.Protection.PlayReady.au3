@@ -1,0 +1,56 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Namespace
+# File Name : Windows.Media.Protection.PlayReady
+
+#include-once
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyContentHeader2.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyDomainJoinServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyDomainLeaveServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyIndividualizationServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyLicense2.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyLicenseAcquisitionServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyLicenseAcquisitionServiceRequest2.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyLicenseAcquisitionServiceRequest3.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyLicenseSession2.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyMeteringReportServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyRevocationServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyStatics2.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyStatics3.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyStatics4.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.IPlayReadyStatics5.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.NDClient.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.NDCustomData.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.NDStorageFileHelper.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.NDStreamParserNotifier.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.NDTCPMessenger.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyContentHeader.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyContentResolver.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyDomain.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyDomainIterable.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyDomainIterator.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyDomainJoinServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyDomainLeaveServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyITADataGenerator.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyLicense.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyLicenseAcquisitionServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyLicenseIterable.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyLicenseIterator.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyLicenseManagement.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyMeteringReportServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyRevocationServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadySecureStopIterable.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadySecureStopIterator.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadySoapMessage.au3"
+#include "..\Classes\Windows.Media.Protection.PlayReady.PlayReadyStatics.au3"

@@ -1,0 +1,18 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Interface
+# File Name : Microsoft.UI.Xaml.Controls.IGridViewHeaderItem
+# Incl. In  : Microsoft.UI.Xaml.Controls.GridViewHeaderItem
+
+#include-once
+#include "..\WinRTCore.au3"
+#include "IInspectable.au3"
+
+Global Const $sIID_IGridViewHeaderItem = "{2C90C3E0-3245-55D6-9D98-0FD9540E920F}"
+$__g_mIIDs[$sIID_IGridViewHeaderItem] = "IGridViewHeaderItem"
+
+Global Const $tagIGridViewHeaderItem = $tagIInspectable

@@ -1,0 +1,15 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Class
+# File Name : Windows.UI.WebUI.WebUIView
+# Incl. In  : Windows.UI.WebUI
+
+#include-once
+#include "..\Interfaces\Windows.UI.WebUI.IWebUIViewStatics.au3"
+#include "..\Interfaces\Windows.UI.WebUI.IWebUIView.au3"
+#include "..\Interfaces\Windows.Web.UI.IWebViewControl.au3"
+#include "..\Interfaces\Windows.Web.UI.IWebViewControl2.au3"

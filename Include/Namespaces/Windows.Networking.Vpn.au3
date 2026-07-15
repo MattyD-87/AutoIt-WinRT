@@ -1,0 +1,57 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Namespace
+# File Name : Windows.Networking.Vpn
+
+#include-once
+#include "..\Classes\Windows.Networking.Vpn.IVpnCustomCheckBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnCustomComboBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnCustomEditBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnCustomErrorBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnCustomPromptBooleanInput.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnCustomPromptOptionSelector.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnCustomPromptText.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnCustomPromptTextInput.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnCustomTextBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnNativeProfile.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnPacketBufferList.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnPacketBufferList2.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnPlugInProfile.au3"
+#include "..\Classes\Windows.Networking.Vpn.IVpnPlugInProfile2.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnAppId.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnChannel.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnChannelActivityEventArgs.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnChannelActivityStateChangedArgs.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnChannelConfiguration.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCredential.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCustomCheckBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCustomComboBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCustomEditBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCustomErrorBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCustomPromptBooleanInput.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCustomPromptOptionSelector.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCustomPromptText.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCustomPromptTextInput.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnCustomTextBox.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnDomainNameAssignment.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnDomainNameInfo.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnForegroundActivatedEventArgs.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnForegroundActivationOperation.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnInterfaceId.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnManagementAgent.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnNamespaceAssignment.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnNamespaceInfo.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnNativeProfile.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnPacketBuffer.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnPacketBufferList.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnPickedCredential.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnPlugInProfile.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnRoute.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnRouteAssignment.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnSystemHealth.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnTrafficFilter.au3"
+#include "..\Classes\Windows.Networking.Vpn.VpnTrafficFilterAssignment.au3"

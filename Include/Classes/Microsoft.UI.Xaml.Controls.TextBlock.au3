@@ -1,0 +1,24 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Class
+# File Name : Microsoft.UI.Xaml.Controls.TextBlock
+# Incl. In  : Microsoft.UI.Xaml.Controls
+
+#include-once
+#include "..\Classes\Microsoft.UI.Xaml.FrameworkElement.au3"
+#include "..\Interfaces\Microsoft.UI.Xaml.Controls.ITextBlockStatics.au3"
+#include "..\Enumerations\Windows.UI.Text.FontStyle.au3"
+#include "..\Enumerations\Windows.UI.Text.FontStretch.au3"
+#include "..\Enumerations\Microsoft.UI.Xaml.TextWrapping.au3"
+#include "..\Enumerations\Microsoft.UI.Xaml.TextTrimming.au3"
+#include "..\Enumerations\Microsoft.UI.Xaml.TextAlignment.au3"
+#include "..\Enumerations\Microsoft.UI.Xaml.LineStackingStrategy.au3"
+#include "..\Enumerations\Microsoft.UI.Xaml.TextLineBounds.au3"
+#include "..\Enumerations\Microsoft.UI.Xaml.OpticalMarginAlignment.au3"
+#include "..\Enumerations\Microsoft.UI.Xaml.TextReadingOrder.au3"
+#include "..\Enumerations\Windows.UI.Text.TextDecorations.au3"
+#include "..\Interfaces\Microsoft.UI.Xaml.Controls.ITextBlock.au3"

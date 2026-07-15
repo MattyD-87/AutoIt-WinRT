@@ -1,0 +1,15 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Class
+# File Name : Windows.UI.Xaml.Media.Animation.ConnectedAnimation
+# Incl. In  : Windows.UI.Xaml.Media.Animation
+
+#include-once
+#include "..\Interfaces\Windows.UI.Xaml.Media.Animation.IConnectedAnimation.au3"
+#include "..\Enumerations\Windows.UI.Xaml.Media.Animation.ConnectedAnimationComponent.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Media.Animation.IConnectedAnimation2.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Media.Animation.IConnectedAnimation3.au3"

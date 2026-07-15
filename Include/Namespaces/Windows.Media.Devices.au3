@@ -1,0 +1,58 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Namespace
+# File Name : Windows.Media.Devices
+
+#include-once
+#include "..\Classes\Windows.Media.Devices.AdvancedPhotoCaptureSettings.au3"
+#include "..\Classes\Windows.Media.Devices.AdvancedPhotoControl.au3"
+#include "..\Classes\Windows.Media.Devices.AudioDeviceController.au3"
+#include "..\Classes\Windows.Media.Devices.AudioDeviceModule.au3"
+#include "..\Classes\Windows.Media.Devices.AudioDeviceModuleNotificationEventArgs.au3"
+#include "..\Classes\Windows.Media.Devices.AudioDeviceModulesManager.au3"
+#include "..\Classes\Windows.Media.Devices.CallControl.au3"
+#include "..\Classes\Windows.Media.Devices.CameraOcclusionInfo.au3"
+#include "..\Classes\Windows.Media.Devices.CameraOcclusionState.au3"
+#include "..\Classes\Windows.Media.Devices.CameraOcclusionStateChangedEventArgs.au3"
+#include "..\Classes\Windows.Media.Devices.DefaultAudioCaptureDeviceChangedEventArgs.au3"
+#include "..\Classes\Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.au3"
+#include "..\Classes\Windows.Media.Devices.DialRequestedEventArgs.au3"
+#include "..\Classes\Windows.Media.Devices.DigitalWindowBounds.au3"
+#include "..\Classes\Windows.Media.Devices.DigitalWindowCapability.au3"
+#include "..\Classes\Windows.Media.Devices.DigitalWindowControl.au3"
+#include "..\Classes\Windows.Media.Devices.ExposureCompensationControl.au3"
+#include "..\Classes\Windows.Media.Devices.ExposureControl.au3"
+#include "..\Classes\Windows.Media.Devices.ExposurePriorityVideoControl.au3"
+#include "..\Classes\Windows.Media.Devices.FlashControl.au3"
+#include "..\Classes\Windows.Media.Devices.FocusControl.au3"
+#include "..\Classes\Windows.Media.Devices.FocusSettings.au3"
+#include "..\Classes\Windows.Media.Devices.HdrVideoControl.au3"
+#include "..\Classes\Windows.Media.Devices.IAudioDeviceController.au3"
+#include "..\Classes\Windows.Media.Devices.IVideoDeviceController.au3"
+#include "..\Classes\Windows.Media.Devices.InfraredTorchControl.au3"
+#include "..\Classes\Windows.Media.Devices.IsoSpeedControl.au3"
+#include "..\Classes\Windows.Media.Devices.KeypadPressedEventArgs.au3"
+#include "..\Classes\Windows.Media.Devices.LowLagPhotoControl.au3"
+#include "..\Classes\Windows.Media.Devices.LowLagPhotoSequenceControl.au3"
+#include "..\Classes\Windows.Media.Devices.MediaDevice.au3"
+#include "..\Classes\Windows.Media.Devices.MediaDeviceControl.au3"
+#include "..\Classes\Windows.Media.Devices.MediaDeviceControlCapabilities.au3"
+#include "..\Classes\Windows.Media.Devices.ModuleCommandResult.au3"
+#include "..\Classes\Windows.Media.Devices.OpticalImageStabilizationControl.au3"
+#include "..\Classes\Windows.Media.Devices.PanelBasedOptimizationControl.au3"
+#include "..\Classes\Windows.Media.Devices.PhotoConfirmationControl.au3"
+#include "..\Classes\Windows.Media.Devices.RedialRequestedEventArgs.au3"
+#include "..\Classes\Windows.Media.Devices.RegionOfInterest.au3"
+#include "..\Classes\Windows.Media.Devices.RegionsOfInterestControl.au3"
+#include "..\Classes\Windows.Media.Devices.SceneModeControl.au3"
+#include "..\Classes\Windows.Media.Devices.TorchControl.au3"
+#include "..\Classes\Windows.Media.Devices.VideoDeviceController.au3"
+#include "..\Classes\Windows.Media.Devices.VideoDeviceControllerGetDevicePropertyResult.au3"
+#include "..\Classes\Windows.Media.Devices.VideoTemporalDenoisingControl.au3"
+#include "..\Classes\Windows.Media.Devices.WhiteBalanceControl.au3"
+#include "..\Classes\Windows.Media.Devices.ZoomControl.au3"
+#include "..\Classes\Windows.Media.Devices.ZoomSettings.au3"

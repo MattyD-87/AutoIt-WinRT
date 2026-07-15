@@ -1,0 +1,56 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Namespace
+# File Name : Windows.ApplicationModel.Chat
+
+#include-once
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatCapabilities.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatCapabilitiesManager.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatConversation.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatConversationReader.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatConversationThreadingInfo.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessage.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageAttachment.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageBlocking.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageChange.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageChangeReader.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageChangeTracker.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageChangedDeferral.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageChangedEventArgs.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageManager.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageNotificationTriggerDetails.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageReader.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageStore.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageStoreChangedEventArgs.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageTransport.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageTransportConfiguration.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatMessageValidationResult.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatQueryOptions.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatRecipientDeliveryInfo.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatSearchReader.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatSyncConfiguration.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.ChatSyncManager.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessage2.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessage3.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessage4.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessageAttachment2.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessageManager2Statics.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessageManagerStatics3.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessageNotificationTriggerDetails2.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessageStore2.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessageStore3.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.IChatMessageTransport2.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RcsEndUserMessage.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RcsEndUserMessageAction.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RcsEndUserMessageAvailableEventArgs.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RcsEndUserMessageAvailableTriggerDetails.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RcsEndUserMessageManager.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RcsManager.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RcsServiceKindSupportedChangedEventArgs.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RcsTransport.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RcsTransportConfiguration.au3"
+#include "..\Classes\Windows.ApplicationModel.Chat.RemoteParticipantComposingChangedEventArgs.au3"

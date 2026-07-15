@@ -1,0 +1,57 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Interface
+# File Name : Windows.Devices.PointOfService.IClaimedLineDisplayStatics
+# Incl. In  : Windows.Devices.PointOfService.ClaimedLineDisplay
+
+#include-once
+#include "..\WinRTCore.au3"
+#include "IInspectable.au3"
+
+Global Const $sIID_IClaimedLineDisplayStatics = "{78CA98FB-8B6B-4973-86F0-3E570C351825}"
+$__g_mIIDs[$sIID_IClaimedLineDisplayStatics] = "IClaimedLineDisplayStatics"
+
+Global Const $tagIClaimedLineDisplayStatics = $tagIInspectable & _
+		"FromIdAsync hresult(handle; ptr*);" & _ ; In $hDeviceId, Out $pOperation
+		"GetDeviceSelector hresult(handle*);" & _ ; Out $hResult
+		"GetDeviceSelector2 hresult(ulong; handle*);" ; In $iConnectionTypes, Out $hValue
+
+Func IClaimedLineDisplayStatics_FromIdAsync($pThis, $sDeviceId)
+	Local $vFailVal = Ptr(0)
+	Local $pFunc = __WinRT_GetFuncAddress($pThis, 7)
+	If @error Then Return SetError(@error, @extended, $vFailVal)
+	If ($sDeviceId) And (Not IsString($sDeviceId)) Then Return SetError($ERROR_INVALID_PARAMETER, 0, $vFailVal)
+	Local $hDeviceId = _WinRT_CreateHString($sDeviceId)
+	Local $aCall = DllCallAddress("long", $pFunc, "ptr", $pThis, "handle", $hDeviceId, "ptr*", 0)
+	Local $iError = @error
+	_WinRT_DeleteHString($hDeviceId)
+	If $iError Then Return SetError(__WinRT_GetDllError($iError), 0, $vFailVal)
+	Return SetError($aCall[0], 0, $aCall[3])
+EndFunc
+
+Func IClaimedLineDisplayStatics_GetDeviceSelector($pThis)
+	Local $vFailVal = ""
+	Local $pFunc = __WinRT_GetFuncAddress($pThis, 8)
+	If @error Then Return SetError(@error, @extended, $vFailVal)
+	Local $aCall = DllCallAddress("long", $pFunc, "ptr", $pThis, "handle*", 0)
+	If @error Then Return SetError(__WinRT_GetDllError(), 0, $vFailVal)
+	Local $sResult = _WinRT_ReadHString($aCall[2])
+	_WinRT_DeleteHString($aCall[2])
+	Return SetError($aCall[0], 0, $sResult)
+EndFunc
+
+Func IClaimedLineDisplayStatics_GetDeviceSelector2($pThis, $iConnectionTypes)
+	Local $vFailVal = ""
+	Local $pFunc = __WinRT_GetFuncAddress($pThis, 9)
+	If @error Then Return SetError(@error, @extended, $vFailVal)
+	If ($iConnectionTypes) And (Not IsInt($iConnectionTypes)) Then Return SetError($ERROR_INVALID_PARAMETER, 0, $vFailVal)
+	Local $aCall = DllCallAddress("long", $pFunc, "ptr", $pThis, "ulong", $iConnectionTypes, "handle*", 0)
+	If @error Then Return SetError(__WinRT_GetDllError(), 0, $vFailVal)
+	Local $sValue = _WinRT_ReadHString($aCall[3])
+	_WinRT_DeleteHString($aCall[3])
+	Return SetError($aCall[0], 0, $sValue)
+EndFunc

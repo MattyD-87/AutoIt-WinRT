@@ -1,0 +1,15 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Class
+# File Name : Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection
+# Incl. In  : Microsoft.UI.Composition
+
+#include-once
+#include "..\Classes\Microsoft.UI.Composition.CompositionObject.au3"
+#include "..\Interfaces\Microsoft.UI.Composition.ICompositionProjectedShadowCasterCollectionStatics.au3"
+#include "..\Interfaces\Microsoft.UI.Composition.ICompositionProjectedShadowCasterCollection.au3"
+#include "..\Interfaces\Windows.Foundation.Collections.IIterable_1_Microsoft.UI.Composition.CompositionProjectedShadowCaster_.au3"

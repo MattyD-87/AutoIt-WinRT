@@ -1,0 +1,23 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Enumeration
+# File Name : Windows.Services.Maps.Guidance.GuidanceAudioNotifications
+# Incl. In  : Windows.Services.Maps.Guidance.GuidanceNavigator
+
+#include-once
+#include "..\WinRTCore.au3"
+
+Global $mGuidanceAudioNotifications[]
+$mGuidanceAudioNotifications["None"] = 0x00000000
+$mGuidanceAudioNotifications["Maneuver"] = 0x00000001
+$mGuidanceAudioNotifications["Route"] = 0x00000002
+$mGuidanceAudioNotifications["Gps"] = 0x00000004
+$mGuidanceAudioNotifications["SpeedLimit"] = 0x00000008
+$mGuidanceAudioNotifications["Traffic"] = 0x00000010
+$mGuidanceAudioNotifications["TrafficCamera"] = 0x00000020
+
+__WinRT_AddReverseMappings($mGuidanceAudioNotifications)

@@ -1,0 +1,58 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Namespace
+# File Name : Microsoft.UI.Input
+
+#include-once
+#include "..\Classes\Microsoft.UI.Input.CharacterReceivedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.ContextMenuKeyEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.CrossSlidingEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.DraggingEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.EnteredMoveSizeEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.EnteringMoveSizeEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.ExitedMoveSizeEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.FocusChangedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.FocusNavigationRequest.au3"
+#include "..\Classes\Microsoft.UI.Input.FocusNavigationRequestEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.GestureRecognizer.au3"
+#include "..\Classes\Microsoft.UI.Input.HoldingEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.InputObject.au3"
+#include "..\Classes\Microsoft.UI.Input.InputActivationListener.au3"
+#include "..\Classes\Microsoft.UI.Input.InputActivationListenerActivationChangedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.InputCursor.au3"
+#include "..\Classes\Microsoft.UI.Input.InputCustomCursor.au3"
+#include "..\Classes\Microsoft.UI.Input.InputDesktopNamedResourceCursor.au3"
+#include "..\Classes\Microsoft.UI.Input.InputDesktopResourceCursor.au3"
+#include "..\Classes\Microsoft.UI.Input.InputFocusController.au3"
+#include "..\Classes\Microsoft.UI.Input.InputFocusNavigationHost.au3"
+#include "..\Classes\Microsoft.UI.Input.InputKeyboardSource.au3"
+#include "..\Classes\Microsoft.UI.Input.InputLightDismissAction.au3"
+#include "..\Classes\Microsoft.UI.Input.InputLightDismissEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.InputNonClientPointerSource.au3"
+#include "..\Classes\Microsoft.UI.Input.InputPointerSource.au3"
+#include "..\Classes\Microsoft.UI.Input.InputPopupController.au3"
+#include "..\Classes\Microsoft.UI.Input.InputPreTranslateKeyboardSource.au3"
+#include "..\Classes\Microsoft.UI.Input.InputSystemCursor.au3"
+#include "..\Classes\Microsoft.UI.Input.InputUnderlyingWindowController.au3"
+#include "..\Classes\Microsoft.UI.Input.KeyEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.ManipulationCompletedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.ManipulationInertiaStartingEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.ManipulationStartedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.ManipulationUpdatedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.MouseWheelParameters.au3"
+#include "..\Classes\Microsoft.UI.Input.NonClientCaptionTappedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.NonClientPointerEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.NonClientRegionsChangedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.PointerEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.PointerPoint.au3"
+#include "..\Classes\Microsoft.UI.Input.PointerPointProperties.au3"
+#include "..\Classes\Microsoft.UI.Input.PointerPredictor.au3"
+#include "..\Classes\Microsoft.UI.Input.RightTappedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.TappedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.TouchHitTestingEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.WindowRectChangedEventArgs.au3"
+#include "..\Classes\Microsoft.UI.Input.WindowRectChangingEventArgs.au3"

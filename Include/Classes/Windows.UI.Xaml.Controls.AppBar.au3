@@ -1,0 +1,24 @@
+# *** WinRT by MattyD v1.7.1 ***
+# This project is still in development. Expect bugs in some libraries!
+# --------------------------------------------------------------------
+# Generated : 08 May 2026
+# Platform  : WIN_11 25H2 26200
+# WinAppSDK : 2.0 
+# File Type : Class
+# File Name : Windows.UI.Xaml.Controls.AppBar
+# Incl. In  : Windows.UI.Xaml.Controls
+
+#include-once
+#include "..\Classes\Windows.UI.Xaml.Controls.ContentControl.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBarStatics4.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBarStatics2.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBarStatics.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBarFactory.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBar.au3"
+#include "..\Enumerations\Windows.UI.Xaml.Controls.AppBarClosedDisplayMode.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBar2.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBar3.au3"
+#include "..\Enumerations\Windows.UI.Xaml.Controls.LightDismissOverlayMode.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBar4.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBarOverrides.au3"
+#include "..\Interfaces\Windows.UI.Xaml.Controls.IAppBarOverrides3.au3"
